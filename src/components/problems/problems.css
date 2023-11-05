@@ -1,0 +1,36 @@
+/* Custom CSS for ProblemsSet */
+.problem-link {
+    cursor: pointer;
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .problem-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Optional: Add some spacing between table rows and header */
+  .table thead th {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table tbody tr td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Optional: Style the difficulty cell with different background colors */
+  td:contains("Easy") {
+    background-color: #d4edda; /* Green */
+  }
+  
+  td:contains("Medium") {
+    background-color: #fff3cd; /* Yellow */
+  }
+  
+  td:contains("Difficult") {
+    background-color: #f8d7da; /* Red */
+  }
+  

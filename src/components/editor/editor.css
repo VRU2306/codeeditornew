@@ -1,0 +1,25 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.overflow {
+    overflow-y: auto;
+}
+
+.CodeMirror {
+    height: 100%;
+}
+
+.container {
+    min-height: calc(100vh -100px);
+    overflow-y: auto;
+}
+
+.li {
+    list-style-type: none;
+}
+
+.active {
+    color: #6c757d !important;
+    border-bottom: 3px solid #6c757d !important;
+}
